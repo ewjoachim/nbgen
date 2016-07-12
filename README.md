@@ -34,7 +34,7 @@ Notebook cells in [json format](http://nbformat.readthedocs.io/en/latest/format_
 ## You mentionned slides ?
 
 Yes ! Jupyter supports [exporting into slides](http://echorand.me/presentation-slides-with-jupyter-notebook.html#.V4S2epOLSHo).
-As a convenience, the ``--slide`` flag will do the export for you.
+As a convenience, the ``slide`` subcommand will do the export for you.
 
 
 ## Feedback ? Contributions ?
