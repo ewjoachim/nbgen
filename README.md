@@ -1,3 +1,5 @@
+[![PyPI version](https://badge.fury.io/py/nbgen.svg)](https://badge.fury.io/py/nbgen)
+
 # `nbgen` generates a Jupyter Notebook and slides from your data
 
 This script is a wrapper around simple Jupyter functions to simplify the task
