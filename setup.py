@@ -4,7 +4,7 @@ setup(
     name="nbgen",
     description="Generates a Jupyter Notebook and slides from your data",
     url="https://github.com/ewjoachim/nbgen",
-    version="0.1",
+    version="0.1.1",
     packages=find_packages(exclude=["sample.py"]),
     entry_points={
         'console_scripts': [
