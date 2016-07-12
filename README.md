@@ -13,7 +13,7 @@ of automating the creation of Jupyter Notebooks for datasets.
 
 	nbgen -h
 
-	nbgen ./sample.py test "1 + 3"
+	nbgen nb ./sample.py test "1 + 3"
 
 
 ## More details ?
@@ -35,6 +35,8 @@ Notebook cells in [json format](http://nbformat.readthedocs.io/en/latest/format_
 
 Yes ! Jupyter supports [exporting into slides](http://echorand.me/presentation-slides-with-jupyter-notebook.html#.V4S2epOLSHo).
 As a convenience, the ``slide`` subcommand will do the export for you.
+
+	nbgen slides ./sample.py test "1 + 3"
 
 > Note :
 >
