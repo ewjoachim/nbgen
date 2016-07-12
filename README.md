@@ -36,6 +36,10 @@ Notebook cells in [json format](http://nbformat.readthedocs.io/en/latest/format_
 Yes ! Jupyter supports [exporting into slides](http://echorand.me/presentation-slides-with-jupyter-notebook.html#.V4S2epOLSHo).
 As a convenience, the ``slide`` subcommand will do the export for you.
 
+> Note :
+>
+> If you don't specify a local path for `reveal.js` using `--reveal`, a CDN will be used. In this case, the slide
+> will only work if you have internet access.
 
 ## Feedback ? Contributions ?
 
