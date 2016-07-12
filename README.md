@@ -20,7 +20,7 @@ of automating the creation of Jupyter Notebooks for datasets.
 
 `nbgen` doesn't know how to load your data, or how to present them, or anything that's your job.
 You're invited to create an executable (like a python script) that will receive input and output
-Notebook cells in [json format](http://nbformat.readthedocs.io/en/latest/format_description.html#cell-types). See [for an example of this.](sample.py)
+Notebook cells in [json format](http://nbformat.readthedocs.io/en/latest/format_description.html#cell-types). See [sample.py](sample.py) for an example of this.
 
 `nbgen` then takes care of creating a Notebook file and saving it, and executing all the cells.
 
