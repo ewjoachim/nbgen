@@ -15,4 +15,9 @@ setup(
     author_email="ewjoachim@gmail.com",
     install_requires=['jupyter', 'docopt'],
     keywords=["jupyter", "notebook", "generation", "slides"],
+    classifiers=[
+        "Programming Language :: Python :: 3 :: Only",
+        "License :: OSI Approved :: MIT License",
+        "Intended Audience :: Science/Research",
+    ],
 )
